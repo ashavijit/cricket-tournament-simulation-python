@@ -13,14 +13,14 @@ experience: 0.9
 <etc>
 
 
-These player stats should be used when running the simulation and should affect the probabilities of various events occurring like a boundary, getting out, etc.
+- These player stats should be used when running the simulation and should affect the probabilities of various events occurring like a boundary, getting out, etc.
 
-Teams: A team will consist of players. It should have methods like selecting the captain, sending the next player to the field, choosing a bowler for an over, deciding batting order, etc.
+- Teams: A team will consist of players. It should have methods like selecting the captain, sending the next player to the field, choosing a bowler for an over, deciding batting order, etc.
 
-Field: This class will contain factors like field size, fan ratio, pitch conditions, home advantage, etc., which can impact the probabilities of the simulation.
+- Field: This class will contain factors like field size, fan ratio, pitch conditions, home advantage, etc., which can impact the probabilities of the simulation.
 
-Umpire: This class will be responsible for chunking probabilities of all the players on the field and predicting the outcome of a ball. The Umpire class will also keep track of scores, wickets, and overs. It can also make decisions on LBWs, catches, no-balls, wide-balls, etc.
+- Umpire: This class will be responsible for chunking probabilities of all the players on the field and predicting the outcome of a ball. The Umpire class will also keep track of scores, wickets, and overs. It can also make decisions on LBWs, catches, no-balls, wide-balls, etc.
 
-Commentator: This class will provide commentary for each ball and over. It can use the match stats to give a description of the ongoing game events.
+- Commentator: This class will provide commentary for each ball and over. It can use the match stats to give a description of the ongoing game events.
 
-Match: This class will simulate an individual cricket match. It will use objects of the Teams, Field, and Umpire classes and should have methods to start the match, change innings, and end the match.
+- Match: This class will simulate an individual cricket match. It will use objects of the Teams, Field, and Umpire classes and should have methods to start the match, change innings, and end the match.
